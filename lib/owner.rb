@@ -12,7 +12,6 @@ class Owner
   end
 
   def self.count
-    @count = self.count
-    @count
+    @@count
   end
 end
