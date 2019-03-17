@@ -5,4 +5,3 @@ class Fish
     @name = name
   end
 end
-end
