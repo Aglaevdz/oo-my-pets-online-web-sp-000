@@ -3,6 +3,7 @@ class Owner
 
   def initialize
     @name = name
+    @@all << self
   end
 
   def self.all
