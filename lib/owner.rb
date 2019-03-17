@@ -10,4 +10,9 @@ class Owner
   def self.all
     @@all
   end
+
+  def count
+    count = self.count
+    count
+  end
 end
