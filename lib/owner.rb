@@ -16,6 +16,6 @@ class Owner
   end
 
   def self.reset_all
-    self.reset
+    @@all.each do |self|
   end
 end
