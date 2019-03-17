@@ -16,6 +16,6 @@ class Owner
   end
 
   def self.reset
-    self.reset_all
+    self.reset
   end
 end
