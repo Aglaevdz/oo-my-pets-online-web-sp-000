@@ -17,7 +17,5 @@ class Owner
 
   def self.reset_all
     self.reset
-
-    end
   end
 end
