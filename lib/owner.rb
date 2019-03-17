@@ -1,7 +1,7 @@
 class Owner
   attr_accessor :cat, :dog, :fish
   @@all = []
-  
+
   def initialize
     @name = name
     @@all << self
