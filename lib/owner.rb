@@ -23,6 +23,6 @@ class Owner
   end
 
   def species
-    @species
+    @species = owner
   end
 end
