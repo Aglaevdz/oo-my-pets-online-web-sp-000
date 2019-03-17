@@ -11,13 +11,14 @@ class Owner
     @@all
   end
 
+  def self.reset_all
+    @@all.each do |all|
+  end
+end
+
   def self.count
     self.all.count
   end
 
-  def self.reset_all
-    @@all.each do |all|
-    self.count
-  end
-end
+
 end
