@@ -7,8 +7,6 @@ class Owner
     @name = name
     @species = species
     @@all << self
-
-
   end
 
   def self.all
@@ -26,4 +24,7 @@ class Owner
   def species
     @species
   end
+
+  def say_species(species)
+  end  
 end
