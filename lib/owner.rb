@@ -19,3 +19,4 @@ class Owner
     @@all.each do |all|
   end
 end
+end
