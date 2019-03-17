@@ -17,7 +17,7 @@ class Owner
 
   def self.reset_all
     self.reset_all do {|s| owners == owner}
-      
+
     end
   end
 end
