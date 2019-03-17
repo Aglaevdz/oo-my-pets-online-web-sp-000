@@ -6,7 +6,7 @@ class Owner
   def initialize(name, species="human")
     @name = name
     @species = species
-    @pets = {cats: [], dogs: [], fishes: []}
+    @pets = {cats: => [], dogs: => [], fishes: => []}
     @@all << self
 
   end
@@ -47,6 +47,6 @@ class Owner
   end
 
   def walk_dogs
-
+    @pets[:dogs].each {|dog| dog.mood = "happy"}
   end
 end
