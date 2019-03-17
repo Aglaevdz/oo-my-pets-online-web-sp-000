@@ -7,4 +7,5 @@ class Cat
 
   def mood
     self.mood= self
+  end
 end
